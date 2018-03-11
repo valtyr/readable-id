@@ -30,7 +30,5 @@
   "main": "index.js",
   "author": "Dave Wasmer",
   "license": "MIT",
-  "dependencies": {
-    "nanoid": "^1.0.1"
-  }
+  "dependencies": {}
 }
