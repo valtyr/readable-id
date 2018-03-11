@@ -6,5 +6,5 @@ var nouns = require('./nouns')
 module.exports = function() {
   var adjectiveIndex = Math.floor(Math.random() * adjectives.length)
   var nounIndex = Math.floor(Math.random() * nouns.length)
-  return adjectives[adjectiveIndex] + "-" + nouns[nounIndex] + "-" + id
+  return adjectives[adjectiveIndex] + "-" + nouns[nounIndex]
 }
